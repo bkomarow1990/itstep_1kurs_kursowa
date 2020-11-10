@@ -10,12 +10,23 @@
     <height>586</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>586</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>586</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Login</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background: rgb(10,0,180);
-background: linear-gradient(90deg, rgba(10,0,180,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);</string>
+   <string notr="true">text-align: center;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
@@ -35,8 +46,10 @@ background: linear-gradient(90deg, rgba(10,0,180,1) 0%, rgba(9,9,121,1) 35%, rgb
       <widget class="QLabel" name="login_label">
        <property name="font">
         <font>
-         <family>Arial</family>
+         <family>Bebas Neue</family>
          <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
         </font>
        </property>
        <property name="styleSheet">
@@ -44,7 +57,7 @@ background: linear-gradient(90deg, rgba(10,0,180,1) 0%, rgba(9,9,121,1) 35%, rgb
 margin: 0 auto;</string>
        </property>
        <property name="text">
-        <string>     LOGIN:</string>
+        <string>LOGIN:</string>
        </property>
       </widget>
      </item>
@@ -71,8 +84,10 @@ margin: 0 auto;</string>
       <widget class="QLabel" name="password_label">
        <property name="font">
         <font>
-         <family>Arial</family>
+         <family>Bebas Neue</family>
          <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
         </font>
        </property>
        <property name="styleSheet">
@@ -106,7 +121,7 @@ margin: 0 auto;</string>
       <widget class="QPushButton" name="login_button">
        <property name="font">
         <font>
-         <family>Arial</family>
+         <family>Bebas Neue</family>
          <pointsize>16</pointsize>
         </font>
        </property>
@@ -123,6 +138,27 @@ margin: 0 auto;</string>
      </item>
     </layout>
    </widget>
+   <widget class="QPushButton" name="Register_button">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>410</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bebas Neue</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>REGISTER</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -130,7 +166,7 @@ margin: 0 auto;</string>
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>
